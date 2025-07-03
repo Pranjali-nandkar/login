@@ -79,6 +79,19 @@ A modern login and registration system with Google OAuth, built using TypeScript
    - Login page: [http://localhost:3000/index.html](http://localhost:3000/index.html)
    - Register page: [http://localhost:3000/register.html](http://localhost:3000/register.html)
 
+## ⚠️ Important Notice: Google Authentication Setup
+
+The project requires a Google Client ID and Secret to enable the "Login with Google" functionality.
+
+Due to GitHub's security policies and best practices, sensitive credentials like Client ID and Secret are not included in this repository.
+
+To make Google login work:
+
+1. Go to [Google Cloud Console](https://console.developers.google.com/).
+2. Create a new OAuth 2.0 Client ID.
+3. Replace the placeholders in your local `.env` file with your Client ID and Client Secret.
+4. Once set up, the Google login feature will function as expected.
+
 ## Notes
 - Make sure MongoDB is running and accessible.
 - For Google login, set up OAuth credentials at https://console.developers.google.com/ and use the correct redirect URI.
