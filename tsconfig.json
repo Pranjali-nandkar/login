@@ -6,6 +6,8 @@
     "outDir": "./dist",
     "esModuleInterop": true,
     "resolveJsonModule": true,
-    "lib": ["ES6", "dom"]
+    "lib": ["ES6", "dom"],
+    "skipLibCheck": true,
+    "strict": false
   }
 } 

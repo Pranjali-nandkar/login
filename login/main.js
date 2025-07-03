@@ -7,7 +7,6 @@ var __awaiter = (this && this.__awaiter) || function (thisArg, _arguments, P, ge
         step((generator = generator.apply(thisArg, _arguments || [])).next());
     });
 };
-
 // Toggle between Login and Register is no longer needed
 const authForm = document.getElementById('auth-form');
 const submitBtn = document.getElementById('submit-btn');

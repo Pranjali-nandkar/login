@@ -7,7 +7,6 @@ var __awaiter = (this && this.__awaiter) || function (thisArg, _arguments, P, ge
         step((generator = generator.apply(thisArg, _arguments || [])).next());
     });
 };
-
 document.addEventListener('DOMContentLoaded', function () {
     const registerForm = document.getElementById('register-form');
     const messageDiv = document.getElementById('message');

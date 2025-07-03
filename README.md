@@ -15,6 +15,29 @@ A modern login and registration system with Google OAuth, built using TypeScript
 - **Database:** MongoDB
 - **Authentication:** Passport.js, Google OAuth 2.0
 
+## Screenshots
+
+### Login Page Example 1
+![Login Page 1](screenshots/login1.jpeg)
+
+### Login Page Example 2
+![Login Page 2](screenshots/login2.jpeg)
+
+### Register Page
+![Register Page](screenshots/login3.jpeg)
+
+### Forgot Password Page
+![Forgot Password Page](screenshots/login4.jpeg)
+
+### Password Reset Link Sent
+![Password Reset Link Sent](screenshots/login5.jpeg)
+
+### Reset Password Page
+![Reset Password Page](screenshots/loginpagereset.png)
+
+### Welcome Page
+![Welcome Page](screenshots/login8.jpeg)
+
 ## Prerequisites
 - Node.js (v16+ recommended)
 - npm
