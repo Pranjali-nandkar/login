@@ -273,7 +273,8 @@ const resetPasswordHandler = async (req: Request, res: Response, next: NextFunct
 };
 
 passport.use(new GoogleStrategy({
-  clientID: '288412442942-s12q2jpoojml7pg39fa8mlasvnhpcoqh.apps.googleusercontent.com',
+  clientID: process.env.GOOGLE_CLIENT_ID,
+  clientSecret: process.env.GOOGLE_CLIENT_SECRET,
   callbackURL: '/auth/google/callback'
 }, async (accessToken, refreshToken, profile, done) => {
   return done(null, profile);
